@@ -1,14 +1,14 @@
 class TweeterConnection:
-    _consumer_key = ''
-    _consumer_secret = ''
-    _access_token = ''
-    _access_secret = ''
+    _consumer_key = 'B2DbN6Keheeje32ojeatSgbQ7'
+    _consumer_secret = '66H85I8RUmfLzdanOqbA3I5gDRT46Mf6knb3vVUUVPdiIjkpgc'
+    _access_token = '1050747496702640128-NPYxdk8CIRBGwCl9ily2X2G3IVmAfz'
+    _access_secret = 'V38IlGiaACqicKKMkYZ3UFs9BdbY8nqcHBspCdKffcAbb'
 
     def __init__(self):
-        self._consumer_key = "tRirzunNllF1qIOWkar88qBRJ"
-        self._consumer_secret = "tGMfSD5GaclwcvMxM3qCEvy3i84yfVybP7deSyiTKxfCNOzUaM"
-        self._access_token = "1050747496702640128-OLFuNxYb11dB2zAjaiYIpt9MxCtlvN"
-        self._access_secret = "BQWGs2l8Dn2NzMoKlMCIchJxznZwnHTwS2B71l5pyOp4q"
+        self._consumer_key = 'B2DbN6Keheeje32ojeatSgbQ7'
+        self._consumer_secret = '66H85I8RUmfLzdanOqbA3I5gDRT46Mf6knb3vVUUVPdiIjkpgc'
+        self._access_token = '1050747496702640128-NPYxdk8CIRBGwCl9ily2X2G3IVmAfz'
+        self._access_secret = 'V38IlGiaACqicKKMkYZ3UFs9BdbY8nqcHBspCdKffcAbb'
 
     def get_consumer_key(self):
         return self._consumer_key
