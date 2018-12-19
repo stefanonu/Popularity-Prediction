@@ -77,4 +77,6 @@ class CollectData(object):
 
 
 x = CollectData()
-x.user_tweets("@realDonaldTrump")
+tweets_list = x.user_tweets("@realDonaldTrump")
+print(tweets_list[0])
+# x.user_follow_list("@realDonaldTrump")
